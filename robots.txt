@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://johnny-chen.github.io/sitemap.xml

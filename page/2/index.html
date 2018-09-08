@@ -61,7 +61,7 @@
 <meta property="og:description" content="Hugo theme jane example site." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://johnny-chen.github.io/" />
-<meta property="og:updated_time" content="2017-08-20T21:38:52&#43;08:00"/>
+<meta property="og:updated_time" content="2018-03-03T16:01:23&#43;08:00"/>
 <meta itemprop="name" content="Jane - A super concise theme for Hugo">
 <meta itemprop="description" content="Hugo theme jane example site.">
 
@@ -363,18 +363,18 @@
     
       <article class="post bg-white">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/jane-theme-preview/">Jane Theme Preview</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/image-preview/">Image Preview</a></h1>
     
     <div class="post-meta">
-      <span class="post-time"> 2018-03-06 </span>
+      <span class="post-time"> 2018-03-03 </span>
       <div class="post-category">
           <a href="https://johnny-chen.github.io/categories/docs/"> docs </a>
           <a href="https://johnny-chen.github.io/categories/shortcodes/"> shortcodes </a>
           <a href="https://johnny-chen.github.io/categories/index/"> index </a>
           
         </div>
-      <span class="more-meta"> 1507 words </span>
-      <span class="more-meta"> 4 min read </span>
+      <span class="more-meta"> 536 words </span>
+      <span class="more-meta"> 3 min read </span>
       
       
     </div>
@@ -383,14 +383,25 @@
   <div class="post-content">
     
     <div class="post-summary">
-      <p><strong>Markdown</strong> is created by <a href="http://daringfireball.net/">Daring Fireball</a>, the original guideline is <a href="http://daringfireball.net/projects/markdown/syntax">here</a>. Its syntax, however, varies between different parsers or editors.</p>
+      <p>Thanks for <a href="https://github.com/liwenyip/hugo-easy-gallery">liwenyip/hugo-easy-gallery</a> &amp; <a href="https://github.com/xianmin/hugo-theme-jane/pull/48">Zebradil · Pull Request #48</a> .</p>
 
-<p>Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.</p>
+<p>Now, we could use <code>{{&lt; gallery &gt;}}</code> shortcode in hugo-theme-jane.</p>
 
+<h2 id="normal-image">Normal Image</h2>
+
+<p>This is an image in <code>static/image</code> folder.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">![<span class="nt">This is an image in `static/image` folder.</span>](<span class="na">/image/example.jpg</span>)</code></pre></td></tr></table>
+</div>
+</div>
 <p></p>
     </div>
     <div class="read-more">
-      <a href="/post/jane-theme-preview/" class="read-more-link">Read more</a>
+      <a href="/post/image-preview/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -399,16 +410,17 @@
     
       <article class="post bg-white">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/jane-theme-preview.zh-cn/">Jane 主题预览</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/shortcode-notice/">Shortcodes Notice Preview</a></h1>
     
     <div class="post-meta">
-      <span class="post-time"> 2018-03-06 </span>
+      <span class="post-time"> 2018-03-03 </span>
       <div class="post-category">
+          <a href="https://johnny-chen.github.io/categories/docs/"> docs </a>
           <a href="https://johnny-chen.github.io/categories/shortcodes/"> shortcodes </a>
           <a href="https://johnny-chen.github.io/categories/index/"> index </a>
           
         </div>
-      <span class="more-meta"> 12 words </span>
+      <span class="more-meta"> 101 words </span>
       <span class="more-meta"> 1 min read </span>
       
       
@@ -418,10 +430,10 @@
   <div class="post-content">
     
     <div class="post-summary">
-      主题预览,内容有待填充。
+      normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%
     </div>
     <div class="read-more">
-      <a href="/post/jane-theme-preview.zh-cn/" class="read-more-link">Read more</a>
+      <a href="/post/shortcode-notice/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -430,17 +442,16 @@
     
       <article class="post bg-white">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/shortcodes-preview/">Shortcodes Preview</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/doc-footnote-preview/">Jane-Theme Footnote Preview</a></h1>
     
     <div class="post-meta">
-      <span class="post-time"> 2018-03-04 </span>
+      <span class="post-time"> 2018-03-01 </span>
       <div class="post-category">
           <a href="https://johnny-chen.github.io/categories/docs/"> docs </a>
-          <a href="https://johnny-chen.github.io/categories/shortcodes/"> shortcodes </a>
           <a href="https://johnny-chen.github.io/categories/index/"> index </a>
           
         </div>
-      <span class="more-meta"> 343 words </span>
+      <span class="more-meta"> 278 words </span>
       <span class="more-meta"> 2 min read </span>
       
       
@@ -450,22 +461,12 @@
   <div class="post-content">
     
     <div class="post-summary">
-      <h2 id="what-a-shortcode-is">What a Shortcode is</h2>
-
-<p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframes&gt;</code>) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&rsquo;s syntax.</p>
-
-<p>Hugo created <strong>shortcodes</strong> to circumvent these limitations.</p>
-
-<p>A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.</p>
-
-<p>In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.</p>
-
-<p>More details: <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p>
+      <p>Hugo-theme-jane optimized for footnote. When you mouse hover the footnote<sup class="footnote-ref" id="fnref:example"><a href="#fn:example">1</a></sup> , footnote content will be displayed.</p>
 
 <p></p>
     </div>
     <div class="read-more">
-      <a href="/post/shortcodes-preview/" class="read-more-link">Read more</a>
+      <a href="/post/doc-footnote-preview/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -497,11 +498,11 @@
   <nav class="pagination">
     <ul>
       
-      <li  class="active" >
+      <li >
         <a href="/">1</a>
       </li>
       
-      <li >
+      <li  class="active" >
         <a href="/page/2/">2</a>
       </li>
       
