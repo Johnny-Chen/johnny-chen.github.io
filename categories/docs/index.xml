@@ -5,11 +5,20 @@
     <link>https://johnny-chen.github.io/categories/docs/</link>
     <description>Recent content in Docs on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 13 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://johnny-chen.github.io/categories/docs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第一篇博客，测试博客meta data</title>
+      <link>https://johnny-chen.github.io/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnny-chen.github.io/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如题</description>
+    </item>
     
     <item>
       <title>Jane Theme Preview</title>
