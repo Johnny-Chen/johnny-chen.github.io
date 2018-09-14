@@ -6,10 +6,19 @@
     <description>Recent content in Preview on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://johnny-chen.github.io/tags/preview/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux加密机制</title>
+      <link>https://johnny-chen.github.io/post/linux%E5%8A%A0%E5%AF%86%E6%9C%BA%E5%88%B6/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnny-chen.github.io/post/linux%E5%8A%A0%E5%AF%86%E6%9C%BA%E5%88%B6/</guid>
+      <description>加密原理 概念：加密是指通过加密算法和加密密钥将明文转变为密文，而解密则是通过解密算法和解密密钥将密文恢复为明文 原理：利用数学上逆运算比正运算</description>
+    </item>
     
     <item>
       <title>第一篇博客，测试博客meta data</title>
@@ -17,7 +26,7 @@
       <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://johnny-chen.github.io/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>如题</description>
+      <description>测试blog图片，如下：</description>
     </item>
     
     <item>

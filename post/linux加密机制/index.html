@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>第一篇博客，测试博客meta data - Jane - A super concise theme for Hugo</title>
+  <title>Linux加密机制 - Jane - A super concise theme for Hugo</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Johnny Chen" />
-  <meta name="description" content="测试blog图片，如下：" />
+  <meta name="description" content="加密原理 概念：加密是指通过加密算法和加密密钥将明文转变为密文，而解密则是通过解密算法和解密密钥将密文恢复为明文 原理：利用数学上逆运算比正运算" />
 
   <meta name="keywords" content="Hugo, theme, jane" />
 
@@ -37,7 +37,7 @@
 <meta name="generator" content="Hugo 0.48" />
 
 
-<link rel="canonical" href="https://johnny-chen.github.io/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" />
+<link rel="canonical" href="https://johnny-chen.github.io/post/linux%E5%8A%A0%E5%AF%86%E6%9C%BA%E5%88%B6/" />
 
 
 
@@ -57,25 +57,25 @@
 
 
 
-<meta property="og:title" content="第一篇博客，测试博客meta data" />
-<meta property="og:description" content="测试blog图片，如下：" />
+<meta property="og:title" content="Linux加密机制" />
+<meta property="og:description" content="加密原理 概念：加密是指通过加密算法和加密密钥将明文转变为密文，而解密则是通过解密算法和解密密钥将密文恢复为明文 原理：利用数学上逆运算比正运算" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://johnny-chen.github.io/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" /><meta property="article:published_time" content="2018-09-13T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-09-13T00:00:00&#43;00:00"/>
-<meta itemprop="name" content="第一篇博客，测试博客meta data">
-<meta itemprop="description" content="测试blog图片，如下：">
+<meta property="og:url" content="https://johnny-chen.github.io/post/linux%E5%8A%A0%E5%AF%86%E6%9C%BA%E5%88%B6/" /><meta property="article:published_time" content="2018-09-14T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-09-14T00:00:00&#43;00:00"/>
+<meta itemprop="name" content="Linux加密机制">
+<meta itemprop="description" content="加密原理 概念：加密是指通过加密算法和加密密钥将明文转变为密文，而解密则是通过解密算法和解密密钥将密文恢复为明文 原理：利用数学上逆运算比正运算">
 
 
-<meta itemprop="datePublished" content="2018-09-13T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-09-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="12">
+<meta itemprop="datePublished" content="2018-09-14T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-09-14T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1937">
 
 
 
 <meta itemprop="keywords" content="preview,shortcodes,tag-6," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="第一篇博客，测试博客meta data"/>
-<meta name="twitter:description" content="测试blog图片，如下："/>
+<meta name="twitter:title" content="Linux加密机制"/>
+<meta name="twitter:description" content="加密原理 概念：加密是指通过加密算法和加密密钥将明文转变为密文，而解密则是通过解密算法和解密密钥将密文恢复为明文 原理：利用数学上逆运算比正运算"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -367,18 +367,18 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">第一篇博客，测试博客meta data</h1>
+      <h1 class="post-title">Linux加密机制</h1>
       
       <div class="post-meta">
-        <span class="post-time"> 2018-09-13 </span>
+        <span class="post-time"> 2018-09-14 </span>
         <div class="post-category">
             <a href="https://johnny-chen.github.io/categories/docs/"> docs </a>
             <a href="https://johnny-chen.github.io/categories/shortcodes/"> shortcodes </a>
             <a href="https://johnny-chen.github.io/categories/index/"> index </a>
             
           </div>
-        <span class="more-meta"> 12 words </span>
-          <span class="more-meta"> 1 min read </span>
+        <span class="more-meta"> 1937 words </span>
+          <span class="more-meta"> 4 min read </span>
 
         
         
@@ -393,15 +393,223 @@
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Table of Contents</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#加密原理">加密原理</a></li>
+<li><a href="#加密分类">加密分类</a></li>
+<li><a href="#对称加密-略">对称加密(略)</a></li>
+<li><a href="#非对称加密">非对称加密</a></li>
+<li><a href="#应用举例-ssh加密通信">应用举例:SSH加密通信</a></li>
+<li><a href="#电子签名-非对称加密的另一个应用">电子签名(非对称加密的另一个应用)</a></li>
+<li><a href="#电子证书">电子证书</a></li>
+<li><a href="#linux全盘加密">Linux全盘加密</a></li>
+<li><a href="#文件系统加密">文件系统加密</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>测试blog图片，如下：</p>
+      
 
-<p><img src="/image/第一篇博客/foo.png" alt="ssh加密流程" /></p>
+<h5 id="加密原理">加密原理</h5>
+
+<p>概念：加密是指通过<strong>加密算法</strong>和<strong>加密密钥</strong>将明文转变为密文，而解密则是通过<strong>解密算法</strong>和<strong>解密密钥</strong>将密文恢复为明文</p>
+
+<p>原理：利用数学上逆运算比正运算难的原理，例如除法比乘法难；找两个质数，把它们乘起来得到一个合数容易，给一个合数把它分解成两个质数相乘很难等。</p>
+
+<p>简单举例：设明文为12, 加密算法为乘上一个数，假设为3（就是加密秘钥），得到密文为36，而解密算法为除以一个数，解密秘钥这里也为3。但是在不知道解密秘钥的情况下，即使知道解密算法，结果也有各种可能。</p>
+
+<h5 id="加密分类">加密分类</h5>
+
+<p>对称加密：加密秘钥和解密秘钥一样(效率高)</p>
+
+<p>非对称加密：加密秘钥和解密秘钥<strong>不一样</strong>（破解难)</p>
+
+<h5 id="对称加密-略">对称加密(略)</h5>
+
+<h5 id="非对称加密">非对称加密</h5>
+
+<p>为什么会有非对称加密？</p>
+
+<p>非对称加密相对于对称加密解决的问题：<strong>秘钥在传输过程中的安全性问题</strong></p>
+
+<p>举例：</p>
+
+<p>对称加密的局限性：假设A,B分处两地，A加密送出，B接受解密。使用对称加密的话，加密秘钥和解密秘钥是一样的，A必须把秘钥通过公开渠道（比如写信，网络传输等)发送给B一份，B才能实现最终解密。秘钥在公开渠道的传输过程中就是有可能被窃取的。</p>
+
+<p>非对称加密的解决方案：加密算法生成两个秘钥，一个公钥，给人谁便看都行；一个私钥，自己保留，<strong>完全不传播</strong></p>
+
+<p>同样还是，假设A,B分处两地，A加密送出，B接受解密。此时使用非对称加密，在B处（接收解密方）先运行算法，生成公私钥，然后B通过任何渠道（写信，发mail，或者直接在网站上贴出来等方式），把公钥发送给A。</p>
+
+<p>然后A通过公钥，运行算法加密明文送出，B用自己保留的私钥，接收解密。简单来说，非对称加密解决秘钥在传输过程中的安全性问题的原理，就是<strong>不传输解密秘钥</strong></p>
+
+<h5 id="应用举例-ssh加密通信">应用举例:SSH加密通信</h5>
+
+<p>ssh采用了对称秘钥和非对称秘钥相结合的方式。数据通信采用<strong>客户端生成</strong>的<strong>对称秘钥</strong>，简称<strong>会话秘钥</strong>。</p>
+
+<p>而客户端又是通过非对称加密将<strong>会话秘钥</strong>送达服务器端的，保证秘钥传输过程中不被窃取。</p>
+
+<p><img src="/image/Linux加密机制/ssh加密流程图.png" alt="ssh加密通讯流程" /></p>
+
+<p>这里进行一下说明：</p>
+
+<ol>
+<li>首先服务端会通过非对称加密，产生一个公钥和私钥；</li>
+<li>在客户端发起请求时，服务端将公钥暴露给客户端，这个公钥可以被任意暴露；</li>
+<li>客户端在获取公钥后，会先产生一个由256位随机数字组成的会话密钥，这里称为口令；</li>
+<li>客户端通过公钥将这个口令加密，发送给服务器端；</li>
+<li>服务器端通过私钥进行解密，获取到通讯口令；</li>
+<li>之后，客户端和服务端的信息传递，都通过这个口令进行对称的加密。</li>
+</ol>
+
+<h5 id="电子签名-非对称加密的另一个应用">电子签名(非对称加密的另一个应用)</h5>
+
+<p>电子签名的作用：不可伪造性，向别人证明(电脑另一端的我就是我）</p>
+
+<p>如何实现电子签名？</p>
+
+<p>首先我们看加密流程：公钥加密送出，私钥接收解密。反加密流程过来的话，就是签名：私钥加密（签名）送出，公钥解密（验证）接收。由于私钥你自己独有，所以你加密出来的东西独一无二，就像别人没有办法伪造你的签名一样。而对于接受者，通过公钥很容易验证签名真伪（想想如何？）</p>
+
+<h5 id="电子证书">电子证书</h5>
+
+<p>由于任何人都可以自己生成公私钥，如果通讯的双方互相认识，比如朋友A和B，使用自己的公私钥加密通讯是没有问题的。假设双方不认识，比如你和银行之间，你如何确定和你交易的是真的银行？这个时候需要一个大家都认可的机构来证明，和你打交道的是真的银行。方法是，由这个大家都认可的机构来帮银行生成公私钥，相当于给银行发了一份证书，用来正面银行就是银行。而你可以使用公钥来验证银行证书的真假。</p>
+
+<p>常见的证书机构：CA</p>
+
+<h5 id="linux全盘加密">Linux全盘加密</h5>
+
+<p>Linux可以使用Dmcrypt实现全盘加密。dm-crypt: Linux kernel device-mapper crypto target</p>
+
+<p>支持的算法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">loop-AES: aes, Key 256 bits
+plain: aes-cbc-essiv:sha256, Key: 256 bits, Password hashing: ripemd160
+LUKS1: aes-xts-plain64, Key: 256 bits, LUKS header hashing: sha1, RNG: /dev/urandom</pre></td></tr></table>
+</div>
+</div>
+<p>操作举例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 依赖：暂时略
+</span><span class="c1"></span>sudo cryptsetup luksFormat /dev/mmcblk1 <span class="c1"># 按提示输入加密盘的密码
+</span><span class="c1"># 打开加密盘（解密), 解密后会生成/dev/mapper/sdcard设备文件
+</span><span class="c1"></span>sudo cryptsetup luksOpen /dev/mmcblk1 sdcard <span class="c1"># 这里输入你设置的密码
+</span><span class="c1"># 格式化解密后的sdcard为ext4文件系统
+</span><span class="c1"></span>sudo mkfs.ext4 /dev/mapper/sdcard
+<span class="c1"># 挂载文件系统
+</span><span class="c1"></span>sudo mount /dev/mapper/sdcard /mnt
+<span class="c1"># 修改文件系统的用户名和用户组，假设nvidia为最终的工作用户
+</span><span class="c1"></span>sudo chown -R nvidia:nvidia /mnt
+<span class="c1"># 测试
+</span><span class="c1"></span><span class="nb">echo</span> <span class="s1">&#39;helloworld&#39;</span> &gt; /mnt/test.txt
+cat /mnt/test.txt
+<span class="c1"># 卸载文件系统
+</span><span class="c1"></span>sudo umount /mnt
+<span class="c1"># 重新加密磁盘，################### 这一步非常重要 #######################
+</span><span class="c1"></span>sudo cryptsetup luksClose sdcard
+<span class="c1"># 为加密盘添加第二密码，################### 这一步非常重要 ################
+</span><span class="c1"># 假设第二密码存在/tmp/keyfile文件中
+</span><span class="c1"></span>sudo cryptsetup luksAddKey /dev/mmcblk1 /tmp/keyfile <span class="c1">#之后会提示你先输入第一密码
+</span><span class="c1">#  使用第二密码解密磁盘
+</span><span class="c1"></span>sudo cryptsetup --key-file /tmp/keyfile open --type luks /dev/mmcblk1 sdcard
+<span class="c1"># 再次挂载
+</span><span class="c1"></span>sudo mount /dev/mapper/sdcard /mnt</code></pre></td></tr></table>
+</div>
+</div>
+<p>通过api调用来实现加密解密：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt-get install libcryptsetup-dev</code></pre></td></tr></table>
+</div>
+</div>
+<h5 id="文件系统加密">文件系统加密</h5>
+
+<p>文件系统级别加密可以使用ecryptfs</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt-get install ecryptfs-utils</code></pre></td></tr></table>
+</div>
+</div>
+<p>例如安装ubuntu时候的home目录加密：</p>
+
+<p><img src="/image/Linux加密机制/home目录加密.jpg" alt="home目录加密" /></p>
+
+<p>操作举例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 此命令会在当前home目录创建三个目录：.ecryptfs/ .Private/ Private/
+</span><span class="c1"></span>ecryptfs-setup-private
+<span class="c1"># 挂载(解密文件夹)
+</span><span class="c1"></span>ecryptfs-mount-private
+<span class="c1"># 查看被解密的文件夹
+</span><span class="c1"></span>ls ~/Private/
+<span class="c1"># 卸载(重新加密文件夹)
+</span><span class="c1"></span>ecryptfs-umount-private</code></pre></td></tr></table>
+</div>
+</div>
+<p>高级用法(暂略)</p>
 
     </div>
 
@@ -414,7 +622,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-09-13</span>
+    <span class="item-content">2018-09-14</span>
   </p>
   
   <p class="copyright-item">
@@ -437,14 +645,9 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/linux%E5%8A%A0%E5%AF%86%E6%9C%BA%E5%88%B6/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Linux加密机制</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/jane-theme-preview/">
-            <span class="next-text nav-default">Jane Theme Preview</span>
+          <a class="next" href="/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+            <span class="next-text nav-default">第一篇博客，测试博客meta data</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
