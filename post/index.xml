@@ -207,5 +207,14 @@ Follow the following steps:
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>模板</title>
+      <link>https://johnny-chen.github.io/post/template/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnny-chen.github.io/post/template/</guid>
+      <description>这是一篇测试博文。</description>
+    </item>
+    
   </channel>
 </rss>
