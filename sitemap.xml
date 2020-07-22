@@ -24,91 +24,91 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/jane-theme-preview/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/jane-theme-preview.zh-cn/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/jane-theme-preview.zh-cn/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/shortcodes-preview/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/image-preview/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/image-preview/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/shortcode-notice/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/shortcode-notice/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/doc-footnote-preview/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/doc-footnote-preview/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/english-preview/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/this-is-a-very-long-title/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/this-is-a-very-long-title/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/creating-a-new-theme/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/goisforlovers/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/hugoisforlovers/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/migrate-from-jekyll/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/post/syntax-highlighting/</loc>
+    <loc>https://johnny-chen.github.io/post/origin/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/development/</loc>
+    <loc>https://johnny-chen.github.io/categories/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/categories/development/</loc>
+    <loc>https://johnny-chen.github.io/tags/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -149,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/english/</loc>
+    <loc>https://johnny-chen.github.io/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/categories/english/</loc>
+    <loc>https://johnny-chen.github.io/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/github/</loc>
+    <loc>https://johnny-chen.github.io/categories/github/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/categories/github/</loc>
+    <loc>https://johnny-chen.github.io/tags/github/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/golang/</loc>
+    <loc>https://johnny-chen.github.io/categories/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/categories/golang/</loc>
+    <loc>https://johnny-chen.github.io/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -261,13 +261,6 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/shortcodes/</loc>
-    <lastmod>2018-09-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://johnny-chen.github.io/categories/shortcodes/</loc>
     <lastmod>2018-09-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -275,14 +268,21 @@
   </url>
   
   <url>
-    <loc>https://johnny-chen.github.io/tags/syntax-highlighting/</loc>
-    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+    <loc>https://johnny-chen.github.io/tags/shortcodes/</loc>
+    <lastmod>2018-09-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://johnny-chen.github.io/categories/syntax-highlighting/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnny-chen.github.io/tags/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
