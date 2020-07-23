@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>哲学 on Jane - A super concise theme for Hugo</title>
+    <link>https://johnny-chen.github.io/tags/%E5%93%B2%E5%AD%A6/</link>
+    <description>Recent content in 哲学 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://johnny-chen.github.io/tags/%E5%93%B2%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>马斯诺需求</title>
+      <link>https://johnny-chen.github.io/post/%E9%A9%AC%E6%96%AF%E8%AF%BA%E9%9C%80%E6%B1%82/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://johnny-chen.github.io/post/%E9%A9%AC%E6%96%AF%E8%AF%BA%E9%9C%80%E6%B1%82/</guid>
+      <description>生理需求：也就是基本欲望，吃喝拉撒睡 安全需求：简单说就是”我的就是我的“， 人身安全，健康保障，财产所有，就业保障，家庭安全 社交需求：也就是情</description>
+    </item>
+    
+  </channel>
+</rss>
